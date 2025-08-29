@@ -5,9 +5,8 @@
 #### Romina Barrios Rosales 
 
 ## Enlaces de los ejercicios.
-* [Ejercicio 1] https://github.com/Mina0522/ProgramacionWeb-RBR/tree/master/pr01
-* [Ejercicio 2] https://github.com/Mina0522/ProgramacionWeb-RBR/tree/master/temafav
-* [Ejercicio 3] (temafav/index-01.html)
+
+* [Ejercicio 1](temafav/index-01.html)
 
 ## Links
 
