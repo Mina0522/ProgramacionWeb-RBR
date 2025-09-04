@@ -8,6 +8,7 @@
 
 * [Ejercicio 1](temafav/index-01.html)
 * [Ejercicio 2](ejercicioDos/tablasyasi.html)
+* [Ejercicio 3](ejercicioDos/tablasyasi.html)
 
 ## Links
 
