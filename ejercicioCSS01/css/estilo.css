@@ -1,0 +1,27 @@
+
+body {
+    background-color:darkolivegreen;
+    color:beige;
+    font: icon;
+   
+}
+
+a {
+    text-decoration: none;
+    color: beige; 
+    font-weight: bold;
+}
+
+a:hover {
+    color:maroon;
+}
+
+nav {
+    text-align: center;
+}
+
+#dinotitulo {
+    color:beige;
+    font-style:unset;
+    text-align: center;
+}
