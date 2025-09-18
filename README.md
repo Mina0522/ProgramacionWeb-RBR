@@ -11,6 +11,7 @@
 * [Ejercicio 3](ejercicioDos/tablasyasi.html)
 * [Ejercicio 4](ejercicioCSS01/index.html)
 * [Ejercicio 5](ejercicioCSS02/index.html)
+* [Ejercicio 6](theShop/index.html)
 
 ## Links
 
