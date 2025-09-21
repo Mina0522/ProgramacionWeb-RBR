@@ -1,32 +1,20 @@
-@font-face {
-    font-family: 'Windsol';
-    src: url(../fonts/Windsol-Regular.ttf);
-    font-weight: normal;
-    font-style: regular;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    min-height: 200vh;
-    background: #f2f2f2;
-    font-family: Windsol, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f2f2;
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
     background: #181626;
-    box-shadow: 3px 3px 25px 0 lightgray;
-    position: sticky;
-    top: 0;
-    width: 100%;
-}
-
-.logo-container {
-    display: inline-block;
-    margin: 0;
-    padding: 1% 2%;
-    vertical-align: top;
-    width: 25%;
 }
 
 .logo {
@@ -34,14 +22,8 @@ header {
     padding: 0 0 0 1%;
 }
 
-.content {
-    min-height: 300px;
-    background: #f2f2f2;
-}
-
 .link-container {
     width: 68%;
-    display: inline-block;
     text-align: right;
     vertical-align: bottom;
     padding: 2% 0;
@@ -53,4 +35,57 @@ header {
     margin-left: 2%;
     text-decoration: none;
     font-weight: bold;
+}
+
+.link:hover {
+    color: #BDBEBF;
+}
+
+.form-section {
+    max-width: 600px;
+    margin: 8% auto;
+    padding: 20px;
+    background: #f2f2f2;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10%;
+    color: #181626;
+}
+
+label {
+    display: block;
+    margin-bottom: 1%;
+    font-weight: bold;
+    color: #374151;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #BDBEBF;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: #181D26;
+    color: white;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: #BDBEBF;
+    color: #181D26;
 }

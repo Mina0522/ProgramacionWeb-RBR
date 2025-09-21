@@ -12,6 +12,7 @@
 * [Ejercicio 4](ejercicioCSS01/index.html)
 * [Ejercicio 5](ejercicioCSS02/index.html)
 * [Ejercicio 6](theShop/index.html)
+* [Ejercicio 7](theShop/index.html)
 
 ## Links
 
