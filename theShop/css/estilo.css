@@ -1,3 +1,13 @@
+/*-----variables globales-----*/
+:root{
+    --fuente-global: 'Julius Sans One', sans-serif;
+    --f-blanco: #f2f2f2;
+    --azulfuerte: #181626;
+    --azul-menosfuerte: #181D26;
+    --grisclaro: #BDBEBF;
+    --gris: #374151;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,16 +15,18 @@
 }
 
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f2f2f2;
+    font-family: var(--fuente-global);
+    background-color: var(--f-blanco);
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    position: sticky;
     align-items: center;
     padding: 10px 30px;
-    background: #181626;
+    background: var(--azulfuerte);
+    top: 0;
 }
 
 .logo {
@@ -30,7 +42,7 @@ header {
 }
 
 .link {
-    color: #f2f2f2;
+    color: var(--f-blanco);;
     font-size: 16px;
     margin-left: 2%;
     text-decoration: none;
@@ -38,10 +50,28 @@ header {
 }
 
 .link:hover {
-    color: #BDBEBF;
+    color: var(--grisclaro);
 }
 
 /*---------Menu dos-------------*/
+.menu-dos{
+    width: 68%;
+    text-align: left;
+    vertical-align: bottom;
+    padding: 1% 0;
+}
+
+.link-dos {
+    color: var(--azul-menosfuerte);
+    font-size: 20px;
+    margin-left: 2%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-dos:hover {
+    color: var(--gris);
+}
 
 ul {
     list-style: none;
@@ -53,13 +83,14 @@ ul {
 
 .menupropio {
     display: block;
-    position: relative;
-    background: white;
+    position: absolute;
+    top: 23%;
+    background: var(--f-blanco);;
     width: 250px;
     z-index: 100;
-    top: 100%;
+    
     padding: 0;
-    box-shadow: 2px 2px 5px 0 gray;
+    box-shadow: 2px 2px 5px 0 var(--gris);
     border-radius: 5px;
     max-height: 0;
     transition: max-height 0.4s ease-out;
@@ -71,31 +102,12 @@ li:hover .menupropio {
     transition: max-height 0.4s ease-in;
 }
 
-.menu-dos{
-    width: 68%;
-    text-align: left;
-    vertical-align: bottom;
-    padding: 1% 0;
-}
-
-.link-dos {
-    color: #181D26;
-    font-size: 20px;
-    margin-left: 2%;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.link-dos:hover {
-    color: #525559;
-}
-
 /*--------Contenedores y asi--------------*/
 .form-section {
     max-width: 600px;
     margin: 8% auto;
     padding: 20px;
-    background: #f2f2f2;
+    background: var(--f-blanco);;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -113,7 +125,7 @@ li:hover .menupropio {
     max-width: 600px;
     margin: 30px;
     padding: 20px;
-    background: #f2f2f2;
+    background: var(--f-blanco);;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -121,21 +133,21 @@ li:hover .menupropio {
 h2, h3{
     text-align: center;
     margin-bottom: 10%;
-    color: #181626;
+    color: var(--azulfuerte);;
 }
 
 label {
     display: block;
     margin-bottom: 1%;
     font-weight: bold;
-    color: #374151;
+    color: var(--gris);
 }
 
 input, textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
-    border: 1px solid #BDBEBF;
+    border: 1px solid var(--c-grisclaro);
     border-radius: 8px;
     font-size: 16px;
 }
@@ -144,8 +156,8 @@ input, textarea {
 button {
     display: block;
     margin: 0 auto;
-    background-color: #181D26;
-    color: white;
+    background-color: var(--azul-menosfuerte);;
+    color: var(--f-blanco);;
     padding: 10px 70px;
     border: none;
     border-radius: 8px;
@@ -155,8 +167,8 @@ button {
 }
 
 button:hover {
-    background-color: #BDBEBF;
-    color: #181D26;
+    background-color: var(--grisclaro);
+    color: var(--azul-menosfuerte);;
 }
 
 /*----------------------*/
