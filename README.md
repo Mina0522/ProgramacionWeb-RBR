@@ -15,6 +15,7 @@
 * [Ejercicio 7](theShop/index.html)
 * [Ejercicio 8](theShop/index.html)
 * [Ejercicio 9](theShop/index.html)
+* [Ejercicio 10](theShop/index.html)
 
 ## Links
 
