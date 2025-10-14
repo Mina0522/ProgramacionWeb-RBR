@@ -17,6 +17,7 @@
 * [Ejercicio 9](theShop/index.html)
 * [Ejercicio 10](theShop/index.html)
 * [Ejercicio 11](theShop/index.html)
+* [Ejercicio 12 - Examen CSS](theShop/index.html)
 
 ## Links
 
