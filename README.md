@@ -5,7 +5,7 @@
 #### Romina Barrios Rosales 
 
 ## Enlaces de los ejercicios.
-
+## Unidad CSS
 * [Ejercicio 1](temafav/index-01.html)
 * [Ejercicio 2](ejercicioDos/tablasyasi.html)
 * [Ejercicio 3](ejercicioDos/tablasyasi.html)
@@ -19,15 +19,18 @@
 * [Ejercicio 11](theShop/index.html)
 * [Ejercicio 12 - Examen CSS](theShop/index.html)
 
+## Unidad  JavaScript
+[Ejercicio 1]()
+
 ## Links
 
 * [Enlace 1](https://www.youtube.com/watch?v=Oswujxm2Ag0&list=RDOswujxm2Ag0&start_radio=1).
 
 ## Notas
 
-> PENDIENTE Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+> Unidad CSS: Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 >
->>  PENDIENTE Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+>>  Unidad JavaScript Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 
 ## Calificaciones
 
