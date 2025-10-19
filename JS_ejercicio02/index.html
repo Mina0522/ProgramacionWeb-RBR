@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="img/img.png">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="titulo">Botones para cambiar el color.</h1>
+        <button id="negro">Cambiar a color negro</button>
+        <button id="rosa">Cambiar a color rosa</button>
+        <button id="amarillo">Cambiar a color amarillo</button>
+        <button id="azul">Cambiar a color azul</button>
+    </div>  
+    
+    <script>
+        const contenedor = document.getElementById('contenedor');
+        const titulo = document.getElementById('titulo');
+
+        document.getElementById('negro').addEventListener('click', () => {
+            document.body.style.backgroundColor = '#000000';
+        });
+
+        document.getElementById('rosa').addEventListener('click', () => {
+            document.body.style.backgroundColor = '#FF9696';
+        });
+
+        document.getElementById('amarillo').addEventListener('click', () => {
+            document.body.style.backgroundColor = '#FFFD52';
+        });
+
+        document.getElementById('azul').addEventListener('click', () => {
+            document.body.style.backgroundColor = '#001059';
+        });
+    </script>
+</body>
+
+</html>
