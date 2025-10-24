@@ -121,7 +121,7 @@ body {
     max-width: 600px;
     margin: 8% auto;
     padding: 20px;
-    background: var(--f-blanco);;
+    background: var(--f-blanco);
     border-radius: 12px;
     box-shadow: 0 5px 9px var(--negro);
 }
@@ -138,7 +138,7 @@ body {
     max-width: 600px;
     margin: 30px;
     padding: 20px;
-    background: var(--f-blanco);;
+    background: var(--f-blanco);
 
 }
 

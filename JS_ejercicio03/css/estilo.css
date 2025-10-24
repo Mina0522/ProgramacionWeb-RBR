@@ -1,0 +1,76 @@
+:root {
+    --fuente: 'Montserrat', sans-serif;
+    --rosita: #ffcccc;
+    --rosa: #A60050;
+    --rosaSombra: #FF339B;
+    --amarillo: #FFFF33;
+    --gris: #3c3b3b;
+    --grisclaro: #bdc3c7;
+    --blanco: #fff;
+}
+
+body {
+    font-family: var(--fuente);
+    background-color: var(--rosita);
+    color: var(--gris);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.calcu, .historial {
+    justify-content: right;
+    background: var(--blanco);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    justify-content: left;
+    border: 2px solid var(--grisclaro);
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    background-color: var(--rosa);
+    color: var(--blanco);
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: var(--rosaSombra);
+}
+
+.historial {
+    text-align: center;
+    width: 250px;
+}
