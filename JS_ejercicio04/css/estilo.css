@@ -1,0 +1,109 @@
+:root {
+    --fuente: 'Montserrat', sans-serif;
+    --rosa: #A60050;
+    --rosaSombra: #FF339B;
+    --verde: #598700;
+    --verdeSombra: #8BCF00;
+    --naranja: #b03200;
+    --naranjaSombra: #e14202;
+    --gris: #3c3b3b;
+    --grisclaro: #bdc3c7;
+    --blanco: #fff;
+}
+
+body {
+    font-family: var(--fuente);
+    color: var(--gris);
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 95%;
+    margin: 20px 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.tarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--blanco);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+button {
+    width: 90px;
+    height: 40px;
+    background-color: var(--rosa);
+    color: var(--blanco);
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: var(--rosaSombra);
+}
+
+#input-tarea {
+    padding: 10px;
+    font-size: 16px;
+    margin: 50px;
+    margin-bottom: 10px;
+    justify-content: left;
+    border: 2px solid var(--grisclaro);
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.agg {
+    width: 170px;
+    height: 40px;
+    background-color: var(--verde);
+    color: var(--blanco);
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.agg:hover {
+    transform: scale(1.1);
+    background-color: var(--verdeSombra);
+}
+
+.limpiarH {
+    width: 170px;
+    height: 40px;
+    background-color: var(--naranja);
+    color: var(--blanco);
+    font-size: 18px;
+    margin: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.limpiarH:hover {
+    transform: scale(1.1);
+    background-color: var(--naranjaSombra);
+}

@@ -23,6 +23,7 @@
 * [Ejercicio 1 - Calculadora](JS_ejercicio01/index.html)
 * [Ejercicio 2 - Botones cambiantes](JS_ejercicio02/index.html)
 * [Ejercicio 3 - Calculadora visual](JS_ejercicio03/index.html)
+* [Ejercicio 4 - Lista de tareas](JS_ejercicio04/index.html)
 
 ## Links
 
