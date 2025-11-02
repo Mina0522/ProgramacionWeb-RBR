@@ -24,6 +24,9 @@
 * [Ejercicio 2 - Botones cambiantes](JS_ejercicio02/index.html)
 * [Ejercicio 3 - Calculadora visual](JS_ejercicio03/index.html)
 * [Ejercicio 4 - Lista de tareas](JS_ejercicio04/index.html)
+* [Ejercicio 5 - Modules - Calculadora](JS_ejercicio03/index.html)
+* [Ejercicio 5 - Modules - Lista de tareas](JS_ejercicio04/index.html)
+
 
 ## Links
 
